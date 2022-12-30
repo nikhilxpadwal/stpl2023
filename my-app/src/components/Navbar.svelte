@@ -1,6 +1,5 @@
 <script>
     import Page from '../routes/+page.svelte';
-import Dropdown from './Dropdown.svelte'
     const links = [
         {
         }
@@ -8,7 +7,7 @@ import Dropdown from './Dropdown.svelte'
 </script>
 
 
-<nav class="px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+<nav class="px-2 sm:px-4 py-2.5 dark:bg-gray-900  w-full   dark:border-gray-600">
     <div class="container navbg px-10 flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center py-4">
         <img src="logo.svg" class=" h-6 mr-3 sm:h-20 " alt="Shubhchintak Logo">
